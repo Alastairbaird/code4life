@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css" >
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+  }
+  </style>
+
+
+</head>
+<body>
+
+  <ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="index.html">HOME</a></li>
+  <li role="presentation"><a href="about.html">ABOUTS US </a></li>
+  <li role="presentation"><a href="ContactUs.html">CONTACT US </a></li>
+  <li role="presentation"><a href="MoreInfo.html">MORE INFO </a></li>
+</ul>
+<!-- Container (Contact Section) -->
+<div class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We enjoy answering your question</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+     
+      <p><span class="glyphicon glyphicon-map-marker"></span>Los Angeles, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone:213-326-8695</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>	   
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
